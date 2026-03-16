@@ -1,0 +1,662 @@
+{
+  "agency": {
+    "name": "Agence Spark Media",
+    "email": "agence@demo.com",
+    "password": "agence123"
+  },
+  "clients": [
+    {
+      "name": "Maison Leblanc",
+      "email": "leblanc@demo.com",
+      "password": "client123",
+      "industry": "Immobilier",
+      "logo_color": "#3B82F6",
+      "campaigns": [
+        {
+          "name": "Ventes Printemps 2025",
+          "status": "ACTIVE",
+          "objective": "CONVERSIONS",
+          "daily_budget": 150.0,
+          "total_spend": 2840.5,
+          "impressions": 185000,
+          "reach": 142000,
+          "clicks": 3200,
+          "ctr": 1.73,
+          "cpc": 0.89,
+          "start_date": "2025-03-01",
+          "end_date": "2025-05-31"
+        },
+        {
+          "name": "Brand Awareness Q1",
+          "status": "ENDED",
+          "objective": "BRAND_AWARENESS",
+          "daily_budget": 80.0,
+          "total_spend": 1980.0,
+          "impressions": 320000,
+          "reach": 280000,
+          "clicks": 1890,
+          "ctr": 0.59,
+          "cpc": 1.05,
+          "start_date": "2025-01-01",
+          "end_date": "2025-02-28"
+        },
+        {
+          "name": "Leads Investisseurs",
+          "status": "ACTIVE",
+          "objective": "LEAD_GENERATION",
+          "daily_budget": 200.0,
+          "total_spend": 1450.0,
+          "impressions": 95000,
+          "reach": 72000,
+          "clicks": 2100,
+          "ctr": 2.21,
+          "cpc": 0.69,
+          "start_date": "2025-03-10",
+          "end_date": "2025-06-30"
+        }
+      ],
+      "creatives": [
+        { "title": "Vidéo appartement Paris 15e", "format": "VIDEO", "status": "LIVE", "campaign": "Ventes Printemps 2025", "assigned_to": "Claire M.", "due_date": "2025-02-28" },
+        { "title": "Carousel 5 biens disponibles", "format": "CAROUSEL", "status": "LIVE", "campaign": "Ventes Printemps 2025", "assigned_to": "Thomas B.", "due_date": "2025-03-01" },
+        { "title": "Visuel maison Neuilly", "format": "IMAGE", "status": "REVIEW", "campaign": "Leads Investisseurs", "assigned_to": "Claire M.", "due_date": "2025-04-10" },
+        { "title": "Story annonce nouveaux biens", "format": "STORY", "status": "EN_PROD", "campaign": "Leads Investisseurs", "assigned_to": "Thomas B.", "due_date": "2025-04-15" },
+        { "title": "Vidéo investissement locatif", "format": "VIDEO", "status": "BRIEF", "campaign": "Leads Investisseurs", "assigned_to": null, "due_date": "2025-04-30" }
+      ],
+      "funnel": {
+        "awareness_campaign": "Brand Awareness Q1",
+        "consideration_campaign": "Ventes Printemps 2025",
+        "conversion_campaign": "Leads Investisseurs"
+      }
+    },
+    {
+      "name": "Boutique Éclat",
+      "email": "eclat@demo.com",
+      "password": "client123",
+      "industry": "Mode & Beauté",
+      "logo_color": "#EC4899",
+      "campaigns": [
+        {
+          "name": "Collection Été 2025",
+          "status": "ACTIVE",
+          "objective": "TRAFFIC",
+          "daily_budget": 120.0,
+          "total_spend": 3200.0,
+          "impressions": 420000,
+          "reach": 380000,
+          "clicks": 8900,
+          "ctr": 2.12,
+          "cpc": 0.36,
+          "start_date": "2025-03-15",
+          "end_date": "2025-07-31"
+        },
+        {
+          "name": "Retargeting Paniers Abandonnés",
+          "status": "ACTIVE",
+          "objective": "CONVERSIONS",
+          "daily_budget": 60.0,
+          "total_spend": 1100.0,
+          "impressions": 58000,
+          "reach": 32000,
+          "clicks": 4200,
+          "ctr": 7.24,
+          "cpc": 0.26,
+          "start_date": "2025-02-01",
+          "end_date": "2025-12-31"
+        },
+        {
+          "name": "Lancement Parfum Signature",
+          "status": "PAUSED",
+          "objective": "BRAND_AWARENESS",
+          "daily_budget": 90.0,
+          "total_spend": 540.0,
+          "impressions": 110000,
+          "reach": 98000,
+          "clicks": 1200,
+          "ctr": 1.09,
+          "cpc": 0.45,
+          "start_date": "2025-03-01",
+          "end_date": "2025-04-30"
+        },
+        {
+          "name": "Soldes Hiver",
+          "status": "ENDED",
+          "objective": "CONVERSIONS",
+          "daily_budget": 200.0,
+          "total_spend": 4200.0,
+          "impressions": 280000,
+          "reach": 245000,
+          "clicks": 12000,
+          "ctr": 4.29,
+          "cpc": 0.35,
+          "start_date": "2025-01-08",
+          "end_date": "2025-02-14"
+        }
+      ],
+      "creatives": [
+        { "title": "Lookbook été – 30s vidéo", "format": "VIDEO", "status": "LIVE", "campaign": "Collection Été 2025", "assigned_to": "Sofia R.", "due_date": "2025-03-10" },
+        { "title": "Carousel nouveautés juin", "format": "CAROUSEL", "status": "EN_PROD", "campaign": "Collection Été 2025", "assigned_to": "Marc L.", "due_date": "2025-04-20" },
+        { "title": "Visuel parfum – fond blanc", "format": "IMAGE", "status": "VALIDE", "campaign": "Lancement Parfum Signature", "assigned_to": "Sofia R.", "due_date": "2025-03-05" },
+        { "title": "Story panier abandonné", "format": "STORY", "status": "LIVE", "campaign": "Retargeting Paniers Abandonnés", "assigned_to": "Marc L.", "due_date": "2025-02-01" },
+        { "title": "Animation produit vedette", "format": "VIDEO", "status": "BRIEF", "campaign": "Collection Été 2025", "assigned_to": null, "due_date": "2025-05-01" }
+      ],
+      "funnel": {
+        "awareness_campaign": "Lancement Parfum Signature",
+        "consideration_campaign": "Collection Été 2025",
+        "conversion_campaign": "Retargeting Paniers Abandonnés"
+      }
+    },
+    {
+      "name": "Restaurant Le Provençal",
+      "email": "provencal@demo.com",
+      "password": "client123",
+      "industry": "Restauration",
+      "logo_color": "#F59E0B",
+      "campaigns": [
+        {
+          "name": "Menu du Midi – Offre Locale",
+          "status": "ACTIVE",
+          "objective": "TRAFFIC",
+          "daily_budget": 35.0,
+          "total_spend": 680.0,
+          "impressions": 92000,
+          "reach": 78000,
+          "clicks": 3400,
+          "ctr": 3.7,
+          "cpc": 0.2,
+          "start_date": "2025-02-01",
+          "end_date": "2025-12-31"
+        },
+        {
+          "name": "Soirées Spéciales Événements",
+          "status": "ACTIVE",
+          "objective": "LEAD_GENERATION",
+          "daily_budget": 50.0,
+          "total_spend": 420.0,
+          "impressions": 45000,
+          "reach": 38000,
+          "clicks": 1800,
+          "ctr": 4.0,
+          "cpc": 0.23,
+          "start_date": "2025-03-01",
+          "end_date": "2025-12-31"
+        },
+        {
+          "name": "Notoriété Locale Printemps",
+          "status": "PAUSED",
+          "objective": "BRAND_AWARENESS",
+          "daily_budget": 25.0,
+          "total_spend": 325.0,
+          "impressions": 68000,
+          "reach": 62000,
+          "clicks": 520,
+          "ctr": 0.76,
+          "cpc": 0.63,
+          "start_date": "2025-03-01",
+          "end_date": "2025-06-30"
+        }
+      ],
+      "creatives": [
+        { "title": "Photo plat signature – Bouillabaisse", "format": "IMAGE", "status": "LIVE", "campaign": "Menu du Midi – Offre Locale", "assigned_to": "Julie P.", "due_date": "2025-01-28" },
+        { "title": "Vidéo ambiance restaurant", "format": "VIDEO", "status": "VALIDE", "campaign": "Notoriété Locale Printemps", "assigned_to": "René G.", "due_date": "2025-02-25" },
+        { "title": "Story réservation soirée", "format": "STORY", "status": "REVIEW", "campaign": "Soirées Spéciales Événements", "assigned_to": "Julie P.", "due_date": "2025-04-05" },
+        { "title": "Carousel menu complet", "format": "CAROUSEL", "status": "BRIEF", "campaign": "Menu du Midi – Offre Locale", "assigned_to": null, "due_date": "2025-05-15" }
+      ],
+      "funnel": {
+        "awareness_campaign": "Notoriété Locale Printemps",
+        "consideration_campaign": "Menu du Midi – Offre Locale",
+        "conversion_campaign": "Soirées Spéciales Événements"
+      }
+    },
+    {
+      "name": "TechStart Solutions",
+      "email": "techstart@demo.com",
+      "password": "client123",
+      "industry": "Logiciel B2B",
+      "logo_color": "#8B5CF6",
+      "campaigns": [
+        {
+          "name": "Lead Gen SaaS Q2",
+          "status": "ACTIVE",
+          "objective": "LEAD_GENERATION",
+          "daily_budget": 300.0,
+          "total_spend": 5400.0,
+          "impressions": 220000,
+          "reach": 195000,
+          "clicks": 6800,
+          "ctr": 3.09,
+          "cpc": 0.79,
+          "start_date": "2025-03-01",
+          "end_date": "2025-06-30"
+        },
+        {
+          "name": "Retargeting Démo Gratuite",
+          "status": "ACTIVE",
+          "objective": "CONVERSIONS",
+          "daily_budget": 150.0,
+          "total_spend": 2100.0,
+          "impressions": 42000,
+          "reach": 22000,
+          "clicks": 3900,
+          "ctr": 9.29,
+          "cpc": 0.54,
+          "start_date": "2025-02-15",
+          "end_date": "2025-12-31"
+        },
+        {
+          "name": "Awareness Décideurs IT",
+          "status": "ENDED",
+          "objective": "BRAND_AWARENESS",
+          "daily_budget": 200.0,
+          "total_spend": 3600.0,
+          "impressions": 580000,
+          "reach": 510000,
+          "clicks": 4200,
+          "ctr": 0.72,
+          "cpc": 0.86,
+          "start_date": "2025-01-01",
+          "end_date": "2025-02-28"
+        },
+        {
+          "name": "Campagne Lancement v3.0",
+          "status": "PAUSED",
+          "objective": "TRAFFIC",
+          "daily_budget": 250.0,
+          "total_spend": 1200.0,
+          "impressions": 95000,
+          "reach": 82000,
+          "clicks": 5100,
+          "ctr": 5.37,
+          "cpc": 0.24,
+          "start_date": "2025-03-20",
+          "end_date": "2025-05-31"
+        }
+      ],
+      "creatives": [
+        { "title": "Vidéo démo produit 60s", "format": "VIDEO", "status": "LIVE", "campaign": "Lead Gen SaaS Q2", "assigned_to": "Alex T.", "due_date": "2025-02-28" },
+        { "title": "Bannière feature #1", "format": "IMAGE", "status": "LIVE", "campaign": "Retargeting Démo Gratuite", "assigned_to": "Nadia K.", "due_date": "2025-02-15" },
+        { "title": "Carousel comparaison concurrents", "format": "CAROUSEL", "status": "EN_PROD", "campaign": "Lead Gen SaaS Q2", "assigned_to": "Alex T.", "due_date": "2025-04-25" },
+        { "title": "Story success story client", "format": "STORY", "status": "VALIDE", "campaign": "Campagne Lancement v3.0", "assigned_to": "Nadia K.", "due_date": "2025-03-18" },
+        { "title": "Vidéo webinar ROI", "format": "VIDEO", "status": "BRIEF", "campaign": "Lead Gen SaaS Q2", "assigned_to": null, "due_date": "2025-05-10" }
+      ],
+      "funnel": {
+        "awareness_campaign": "Awareness Décideurs IT",
+        "consideration_campaign": "Lead Gen SaaS Q2",
+        "conversion_campaign": "Retargeting Démo Gratuite"
+      }
+    },
+    {
+      "name": "Fitness Club Forme+",
+      "email": "formeplus@demo.com",
+      "password": "client123",
+      "industry": "Sport & Bien-être",
+      "logo_color": "#10B981",
+      "campaigns": [
+        {
+          "name": "Inscriptions Été 2025",
+          "status": "ACTIVE",
+          "objective": "LEAD_GENERATION",
+          "daily_budget": 80.0,
+          "total_spend": 1560.0,
+          "impressions": 135000,
+          "reach": 112000,
+          "clicks": 5200,
+          "ctr": 3.85,
+          "cpc": 0.3,
+          "start_date": "2025-03-01",
+          "end_date": "2025-06-30"
+        },
+        {
+          "name": "Promo Abonnement Annuel",
+          "status": "ACTIVE",
+          "objective": "CONVERSIONS",
+          "daily_budget": 100.0,
+          "total_spend": 2200.0,
+          "impressions": 98000,
+          "reach": 82000,
+          "clicks": 4100,
+          "ctr": 4.18,
+          "cpc": 0.54,
+          "start_date": "2025-01-15",
+          "end_date": "2025-04-30"
+        },
+        {
+          "name": "Notoriété Marque Locale",
+          "status": "ENDED",
+          "objective": "BRAND_AWARENESS",
+          "daily_budget": 40.0,
+          "total_spend": 1200.0,
+          "impressions": 210000,
+          "reach": 190000,
+          "clicks": 1800,
+          "ctr": 0.86,
+          "cpc": 0.67,
+          "start_date": "2025-01-01",
+          "end_date": "2025-02-28"
+        }
+      ],
+      "creatives": [
+        { "title": "Avant/après transformation", "format": "CAROUSEL", "status": "LIVE", "campaign": "Promo Abonnement Annuel", "assigned_to": "Lena W.", "due_date": "2025-01-14" },
+        { "title": "Vidéo cours collectifs", "format": "VIDEO", "status": "LIVE", "campaign": "Inscriptions Été 2025", "assigned_to": "Tom S.", "due_date": "2025-02-28" },
+        { "title": "Story offre -30%", "format": "STORY", "status": "EN_PROD", "campaign": "Promo Abonnement Annuel", "assigned_to": "Lena W.", "due_date": "2025-04-10" },
+        { "title": "Image coach vedette", "format": "IMAGE", "status": "BRIEF", "campaign": "Inscriptions Été 2025", "assigned_to": null, "due_date": "2025-05-01" }
+      ],
+      "funnel": {
+        "awareness_campaign": "Notoriété Marque Locale",
+        "consideration_campaign": "Inscriptions Été 2025",
+        "conversion_campaign": "Promo Abonnement Annuel"
+      }
+    },
+    {
+      "name": "Cabinet Avocat Dupont",
+      "email": "dupont@demo.com",
+      "password": "client123",
+      "industry": "Services Juridiques",
+      "logo_color": "#1D4ED8",
+      "campaigns": [
+        {
+          "name": "Leads Droit des Affaires",
+          "status": "ACTIVE",
+          "objective": "LEAD_GENERATION",
+          "daily_budget": 180.0,
+          "total_spend": 3240.0,
+          "impressions": 78000,
+          "reach": 65000,
+          "clicks": 2100,
+          "ctr": 2.69,
+          "cpc": 1.54,
+          "start_date": "2025-02-01",
+          "end_date": "2025-07-31"
+        },
+        {
+          "name": "Notoriété Cabinet",
+          "status": "ACTIVE",
+          "objective": "BRAND_AWARENESS",
+          "daily_budget": 60.0,
+          "total_spend": 1080.0,
+          "impressions": 185000,
+          "reach": 162000,
+          "clicks": 980,
+          "ctr": 0.53,
+          "cpc": 1.1,
+          "start_date": "2025-03-01",
+          "end_date": "2025-12-31"
+        },
+        {
+          "name": "Droit du Travail – PME",
+          "status": "PAUSED",
+          "objective": "LEAD_GENERATION",
+          "daily_budget": 120.0,
+          "total_spend": 840.0,
+          "impressions": 32000,
+          "reach": 28000,
+          "clicks": 890,
+          "ctr": 2.78,
+          "cpc": 0.94,
+          "start_date": "2025-03-15",
+          "end_date": "2025-06-15"
+        }
+      ],
+      "creatives": [
+        { "title": "Portrait Me Dupont", "format": "IMAGE", "status": "LIVE", "campaign": "Notoriété Cabinet", "assigned_to": "Pierre F.", "due_date": "2025-02-28" },
+        { "title": "Infographie droit des affaires", "format": "CAROUSEL", "status": "LIVE", "campaign": "Leads Droit des Affaires", "assigned_to": "Anne C.", "due_date": "2025-01-30" },
+        { "title": "Story testimonial client PME", "format": "STORY", "status": "REVIEW", "campaign": "Droit du Travail – PME", "assigned_to": "Pierre F.", "due_date": "2025-04-08" },
+        { "title": "Vidéo présentation cabinet", "format": "VIDEO", "status": "BRIEF", "campaign": "Notoriété Cabinet", "assigned_to": null, "due_date": "2025-05-20" }
+      ],
+      "funnel": {
+        "awareness_campaign": "Notoriété Cabinet",
+        "consideration_campaign": "Droit du Travail – PME",
+        "conversion_campaign": "Leads Droit des Affaires"
+      }
+    },
+    {
+      "name": "Auto Prestige Lyon",
+      "email": "autoprestige@demo.com",
+      "password": "client123",
+      "industry": "Automobile",
+      "logo_color": "#EF4444",
+      "campaigns": [
+        {
+          "name": "Essais Gratuits Printemps",
+          "status": "ACTIVE",
+          "objective": "LEAD_GENERATION",
+          "daily_budget": 250.0,
+          "total_spend": 4500.0,
+          "impressions": 260000,
+          "reach": 230000,
+          "clicks": 7200,
+          "ctr": 2.77,
+          "cpc": 0.63,
+          "start_date": "2025-03-01",
+          "end_date": "2025-05-31"
+        },
+        {
+          "name": "Véhicules Électriques 2025",
+          "status": "ACTIVE",
+          "objective": "TRAFFIC",
+          "daily_budget": 200.0,
+          "total_spend": 3600.0,
+          "impressions": 195000,
+          "reach": 178000,
+          "clicks": 9800,
+          "ctr": 5.03,
+          "cpc": 0.37,
+          "start_date": "2025-02-01",
+          "end_date": "2025-08-31"
+        },
+        {
+          "name": "Reprise Véhicule Ancien",
+          "status": "ENDED",
+          "objective": "CONVERSIONS",
+          "daily_budget": 100.0,
+          "total_spend": 1800.0,
+          "impressions": 88000,
+          "reach": 75000,
+          "clicks": 3400,
+          "ctr": 3.86,
+          "cpc": 0.53,
+          "start_date": "2025-01-01",
+          "end_date": "2025-02-28"
+        }
+      ],
+      "creatives": [
+        { "title": "Vidéo SUV en action", "format": "VIDEO", "status": "LIVE", "campaign": "Essais Gratuits Printemps", "assigned_to": "Hugo B.", "due_date": "2025-02-25" },
+        { "title": "Carousel gamme électrique", "format": "CAROUSEL", "status": "LIVE", "campaign": "Véhicules Électriques 2025", "assigned_to": "Camille R.", "due_date": "2025-01-30" },
+        { "title": "Story offre essai 48h", "format": "STORY", "status": "EN_PROD", "campaign": "Essais Gratuits Printemps", "assigned_to": "Hugo B.", "due_date": "2025-04-15" },
+        { "title": "Image comparatif électrique", "format": "IMAGE", "status": "VALIDE", "campaign": "Véhicules Électriques 2025", "assigned_to": "Camille R.", "due_date": "2025-03-10" },
+        { "title": "Vidéo borne de recharge", "format": "VIDEO", "status": "BRIEF", "campaign": "Véhicules Électriques 2025", "assigned_to": null, "due_date": "2025-05-15" }
+      ],
+      "funnel": {
+        "awareness_campaign": "Véhicules Électriques 2025",
+        "consideration_campaign": "Essais Gratuits Printemps",
+        "conversion_campaign": "Reprise Véhicule Ancien"
+      }
+    },
+    {
+      "name": "École de Langues Babel",
+      "email": "babel@demo.com",
+      "password": "client123",
+      "industry": "Formation & Éducation",
+      "logo_color": "#06B6D4",
+      "campaigns": [
+        {
+          "name": "Inscriptions Rentrée 2025",
+          "status": "ACTIVE",
+          "objective": "LEAD_GENERATION",
+          "daily_budget": 90.0,
+          "total_spend": 1620.0,
+          "impressions": 115000,
+          "reach": 98000,
+          "clicks": 4800,
+          "ctr": 4.17,
+          "cpc": 0.34,
+          "start_date": "2025-03-01",
+          "end_date": "2025-06-30"
+        },
+        {
+          "name": "Cours Anglais Professionnel",
+          "status": "ACTIVE",
+          "objective": "CONVERSIONS",
+          "daily_budget": 70.0,
+          "total_spend": 980.0,
+          "impressions": 65000,
+          "reach": 58000,
+          "clicks": 2900,
+          "ctr": 4.46,
+          "cpc": 0.34,
+          "start_date": "2025-02-15",
+          "end_date": "2025-09-30"
+        },
+        {
+          "name": "Notoriété Babel",
+          "status": "PAUSED",
+          "objective": "BRAND_AWARENESS",
+          "daily_budget": 30.0,
+          "total_spend": 390.0,
+          "impressions": 82000,
+          "reach": 75000,
+          "clicks": 620,
+          "ctr": 0.76,
+          "cpc": 0.63,
+          "start_date": "2025-01-01",
+          "end_date": "2025-12-31"
+        }
+      ],
+      "creatives": [
+        { "title": "Vidéo classe immersive", "format": "VIDEO", "status": "LIVE", "campaign": "Inscriptions Rentrée 2025", "assigned_to": "Yasmine A.", "due_date": "2025-02-28" },
+        { "title": "Témoignage étudiant", "format": "IMAGE", "status": "LIVE", "campaign": "Cours Anglais Professionnel", "assigned_to": "Felix M.", "due_date": "2025-02-15" },
+        { "title": "Story quiz langue gratuit", "format": "STORY", "status": "EN_PROD", "campaign": "Inscriptions Rentrée 2025", "assigned_to": "Yasmine A.", "due_date": "2025-04-20" },
+        { "title": "Carousel offres de cours", "format": "CAROUSEL", "status": "BRIEF", "campaign": "Cours Anglais Professionnel", "assigned_to": null, "due_date": "2025-05-05" }
+      ],
+      "funnel": {
+        "awareness_campaign": "Notoriété Babel",
+        "consideration_campaign": "Inscriptions Rentrée 2025",
+        "conversion_campaign": "Cours Anglais Professionnel"
+      }
+    },
+    {
+      "name": "Déco & Co Interiors",
+      "email": "decoandco@demo.com",
+      "password": "client123",
+      "industry": "Décoration Intérieure",
+      "logo_color": "#D97706",
+      "campaigns": [
+        {
+          "name": "Inspiration Printemps Déco",
+          "status": "ACTIVE",
+          "objective": "TRAFFIC",
+          "daily_budget": 75.0,
+          "total_spend": 1350.0,
+          "impressions": 310000,
+          "reach": 285000,
+          "clicks": 7800,
+          "ctr": 2.52,
+          "cpc": 0.17,
+          "start_date": "2025-03-01",
+          "end_date": "2025-06-30"
+        },
+        {
+          "name": "Shop the Look",
+          "status": "ACTIVE",
+          "objective": "CONVERSIONS",
+          "daily_budget": 50.0,
+          "total_spend": 900.0,
+          "impressions": 75000,
+          "reach": 62000,
+          "clicks": 5600,
+          "ctr": 7.47,
+          "cpc": 0.16,
+          "start_date": "2025-02-01",
+          "end_date": "2025-12-31"
+        },
+        {
+          "name": "Notoriété Marque",
+          "status": "ENDED",
+          "objective": "BRAND_AWARENESS",
+          "daily_budget": 40.0,
+          "total_spend": 1200.0,
+          "impressions": 420000,
+          "reach": 395000,
+          "clicks": 2400,
+          "ctr": 0.57,
+          "cpc": 0.5,
+          "start_date": "2025-01-01",
+          "end_date": "2025-02-28"
+        }
+      ],
+      "creatives": [
+        { "title": "Vidéo salon reconstitué", "format": "VIDEO", "status": "LIVE", "campaign": "Inspiration Printemps Déco", "assigned_to": "Chloé V.", "due_date": "2025-02-28" },
+        { "title": "Carousel 6 looks salon", "format": "CAROUSEL", "status": "LIVE", "campaign": "Shop the Look", "assigned_to": "Ivan P.", "due_date": "2025-01-30" },
+        { "title": "Image moodboard printemps", "format": "IMAGE", "status": "REVIEW", "campaign": "Inspiration Printemps Déco", "assigned_to": "Chloé V.", "due_date": "2025-04-12" },
+        { "title": "Story sondage couleurs", "format": "STORY", "status": "BRIEF", "campaign": "Shop the Look", "assigned_to": null, "due_date": "2025-05-10" }
+      ],
+      "funnel": {
+        "awareness_campaign": "Notoriété Marque",
+        "consideration_campaign": "Inspiration Printemps Déco",
+        "conversion_campaign": "Shop the Look"
+      }
+    },
+    {
+      "name": "Clinique Santé Plus",
+      "email": "santeplus@demo.com",
+      "password": "client123",
+      "industry": "Santé & Médical",
+      "logo_color": "#059669",
+      "campaigns": [
+        {
+          "name": "Prise de RDV Médecins",
+          "status": "ACTIVE",
+          "objective": "LEAD_GENERATION",
+          "daily_budget": 100.0,
+          "total_spend": 1800.0,
+          "impressions": 88000,
+          "reach": 74000,
+          "clicks": 3200,
+          "ctr": 3.64,
+          "cpc": 0.56,
+          "start_date": "2025-03-01",
+          "end_date": "2025-12-31"
+        },
+        {
+          "name": "Bilan de Santé Offert",
+          "status": "ACTIVE",
+          "objective": "CONVERSIONS",
+          "daily_budget": 80.0,
+          "total_spend": 1120.0,
+          "impressions": 62000,
+          "reach": 54000,
+          "clicks": 2400,
+          "ctr": 3.87,
+          "cpc": 0.47,
+          "start_date": "2025-02-15",
+          "end_date": "2025-05-31"
+        },
+        {
+          "name": "Notoriété Clinique",
+          "status": "PAUSED",
+          "objective": "BRAND_AWARENESS",
+          "daily_budget": 40.0,
+          "total_spend": 560.0,
+          "impressions": 125000,
+          "reach": 115000,
+          "clicks": 820,
+          "ctr": 0.66,
+          "cpc": 0.68,
+          "start_date": "2025-01-01",
+          "end_date": "2025-12-31"
+        }
+      ],
+      "creatives": [
+        { "title": "Photo équipe médicale", "format": "IMAGE", "status": "LIVE", "campaign": "Notoriété Clinique", "assigned_to": "Dr. Martin", "due_date": "2025-01-20" },
+        { "title": "Vidéo présentation services", "format": "VIDEO", "status": "LIVE", "campaign": "Prise de RDV Médecins", "assigned_to": "Sarah N.", "due_date": "2025-02-28" },
+        { "title": "Story bilan offert – CTA", "format": "STORY", "status": "VALIDE", "campaign": "Bilan de Santé Offert", "assigned_to": "Sarah N.", "due_date": "2025-03-05" },
+        { "title": "Carousel spécialités médicales", "format": "CAROUSEL", "status": "EN_PROD", "campaign": "Prise de RDV Médecins", "assigned_to": "Dr. Martin", "due_date": "2025-04-18" },
+        { "title": "Témoignage patient (vidéo)", "format": "VIDEO", "status": "BRIEF", "campaign": "Bilan de Santé Offert", "assigned_to": null, "due_date": "2025-05-20" }
+      ],
+      "funnel": {
+        "awareness_campaign": "Notoriété Clinique",
+        "consideration_campaign": "Bilan de Santé Offert",
+        "conversion_campaign": "Prise de RDV Médecins"
+      }
+    }
+  ]
+}
